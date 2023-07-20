@@ -1,5 +1,35 @@
 # Diffusion-Limited-Aggregation-Project
 Scientific computing degree level coursework
+READ ME
+
+Diffusion Limited Aggregation
+
+
+
+
+Notes
+
+The clusters were plotted with x on the y axis and y on the x axis as this is what the clusters looked like in the lattice.
+
+Code takes a long time to run for a large amount of particles due to the relative injeciton radius being 
+large for larger clusters. This gives more accurate results as there will be less of a bias (injecting particle from infininty)
+, as with a smaller injection radius particles will tend to stick to the largest branch. Due to the time issue the relative
+injection radius will need to be changed (stated in the instructions below), however, this will not make much of a difference.
+This is the same reason for changing the relative kill radius (as particles must wander off to infinity to be killed).
+More particles can be modelled with a smaller relative kill and injection radius, however, this will make it less accurate.
+
+Do not change the figure size once they have loaded as this will mess up the sizes of the markers and particles and
+will not look like they are touching.
+
+#%% was used multiple times in the code as it was useful for adjusting gradients, markersizes etc once data had been generated
+
+All code should take less than a minute to run
+
+m (gradient) and c (y-intercept) equations were found from https://pythonprogramming.net/how-to-program-best-fit-line-machine-learning-tutorial/
+
+
+
+
 Instructions for code
 
 DLA pretty plot figure 0.py
