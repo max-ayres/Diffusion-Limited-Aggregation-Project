@@ -1,4 +1,7 @@
 # Diffusion-Limited-Aggregation-Project
+
+LOOK THROUGH THE PDF AND RUN ANY CODE INTERESTED IN USING THE INSTRUCTIONS BELOW, OTHERWISE CODE WILL RUN FOR OVER A MINUTE
+
 Scientific computing degree level coursework
 READ ME
 
